@@ -135,4 +135,4 @@ Data used in paper figures: `rdf_averaged/chi_wat_rdf_avg.txt` (water_only) and 
 
 If you use this code or data, please cite:
 
-> Koch, F.; Valdivieso, J.; Cirilo, E.; et al. "Chitosan Eco-Friendly Approach to Oil Spill Cleanup: A Combined 2D TD-NMR Relaxation and Computational Modeling Study." *Journal of Polymers and the Environment* (2025). https://doi.org/10.1007/s10924-025-03722-1
+> Kock, F.V.C.; Valdiviezo, J.; Cirilo, E.; Sifuentes, J.; Nakamatsu, J.; Souza, A.; Castro, E.; Barbosa, L.; Colnago, L. "Chitosan Eco-Friendly Approach to Oil Spill Cleanup: A Combined 2D TD-NMR Relaxation and Computational Modeling Study." *Journal of Polymers and the Environment* (2025). https://doi.org/10.1007/s10924-025-03722-1
