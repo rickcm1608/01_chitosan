@@ -1,0 +1,15 @@
+NVT heating: 0 → 300 K with positional restraints on chitosan (CHI)
+
+&cntrl
+  imin=0,           ! MD run (no minimization)
+  ntx=1,            ! read coordinates only (no velocities from restart)
+  irest=0,          ! start a new MD run
+  ntc=2, ntf=2,     ! SHAKE on bonds involving hydrogen
+  nstlim=50000,     ! 50000 steps × 0.002 ps = 100 ps
+  dt=0.002,         ! time step: 2 fs
+  tempi=0.0,        ! initial temperature (random velocities generated)
+  temp0=300,        ! target temperature (K)
+  ntt=3, gamma_ln=2.0, ! Langevin thermostat, collision frequency 2 ps⁻¹
+  ntb=1,            ! constant volume (NVT)
+  ntpr=500, ntwx=500, ntwr=5000,  ! output frequencies (energies, coords, restart)
+  ioutfm=1, ntxo=2, ! bi

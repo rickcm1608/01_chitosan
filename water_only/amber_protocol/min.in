@@ -1,0 +1,5 @@
+Energy minimization
+ &cntrl
+   imin=1,           ! energy minimization mode
+   maxcyc=20000,     ! maximum number of minimization cycles
+   ncy

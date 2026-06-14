@@ -1,0 +1,17 @@
+Equilibration 2: NPT with gentle positional restraints on chitosan (CHI)
+
+&cntrl
+  imin=0,           ! MD run (no minimization)
+  ntx=5,            ! read coordinates and velocities from equil1.rst
+  irest=1,          ! continue from previous simulation
+  ntc=2, ntf=2,     ! SHAKE on bonds involving hydrogen
+  nstlim=100000,    ! 100000 steps × 0.002 ps = 200 ps
+  dt=0.002,         ! time step: 2 fs
+  temp0=300,        ! target temperature: 300 K
+  ntt=3, gamma_ln=2.0, ! Langevin thermostat, collision frequency 2 ps⁻¹
+  ntb=2,            ! periodic boundary conditions (constant pressure)
+  ntp=1,            ! isotropic pressure scaling (NPT)
+  pres0=1.0,        ! target pressure: 1 atm
+  taup=5.0,         ! barostat relaxation time (ps) — gentle coupling
+  ntpr=500, ntwx=500, ntwr=5000,  ! output frequencies
+  ioutfm=1, ntxo=2, ! binary trajectory and restar
