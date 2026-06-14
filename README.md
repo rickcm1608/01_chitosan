@@ -130,3 +130,9 @@ matplotlib
 - **RDF CHI-NAP/PAR:** direct adsorption contacts confirmed at short range
 
 Data used in paper figures: `rdf_averaged/chi_wat_rdf_avg.txt` (water_only) and `rdf_chi_wat/` blocks 21-25 average (oil_water); `radius_of_gyration.csv` from both systems.
+
+## Citation
+
+If you use this code or data, please cite:
+
+> Koch, F.; Valdivieso, J.; Cirilo, E.; et al. "Chitosan Eco-Friendly Approach to Oil Spill Cleanup: A Combined 2D TD-NMR Relaxation and Computational Modeling Study." *Journal of Polymers and the Environment* (2025). https://doi.org/10.1007/s10924-025-03722-1
